@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Special+Elite&size=40&duration=3000&pause=500&color=FF5733&center=true&vCenter=true&width=600&height=80&lines=A+N+S+H+I+K+A+;Welcome+to+My+Portfolio+🚀" alt="Typing SVG" />
+</p>
+
 ###
 <div align="center">
   <a href="https://anshika-pandey2311222.github.io/my-portfolio/" target="_blank">

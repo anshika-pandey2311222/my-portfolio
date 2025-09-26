@@ -27,6 +27,8 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Special+Elite&size=40&duration=3000&pause=500&color=FF5733&center=true&vCenter=true&width=700&height=100&lines=Welcome+to+my+Portfolio;Hi,+I'm+Anshika+Pandey" alt="Typing SVG" />
 </p>
 
+###
+
 <div align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=anshika-pandey2311222.anshika-pandey2311222&"  />
 </div>

@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Special+Elite&size=40&duration=3000&pause=500&color=FF5733&center=true&vCenter=true&width=600&height=80&lines=A+N+S+H+I+K+A+;Welcome+to+My+Portfolio+🚀" alt="Typing SVG" />
-</p>
+
 
 ###
 <div align="center">
@@ -25,6 +23,9 @@
 </div>
 
 ###
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Special+Elite&size=40&duration=3000&pause=500&color=FF5733&center=true&vCenter=true&width=700&height=100&lines=Welcome+to+my+Portfolio;Hi,+I'm+Anshika+Pandey" alt="Typing SVG" />
+</p>
 
 <div align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=anshika-pandey2311222.anshika-pandey2311222&"  />
@@ -32,7 +33,6 @@
 
 ###
 
-<h1 align="center">Hi! I'm Anshika </h1>
 <h3 align="center">🚀 AI/ML Enthusiast | Data Analyst | Full-Stack Developer</h3>
 
 ---

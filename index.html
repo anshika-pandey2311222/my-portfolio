@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio / Anshika Pandey</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="icon" href="assets/android-chrome-512x512.png" type="image/x-icon"> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  </head>
+  <body>
+
+    <div id="loading">
+      <div class="loading-text" id="name-loader">
+        <span data-text="A">A</span>
+        <span data-text="N">N</span>
+        <span data-text="S">S</span>
+        <span data-text="H">H</span>
+        <span data-text="I">I</span>
+        <span data-text="K">K</span>
+        <span data-text="A">A</span>
+      </div>
+    </div>
+
+    <section class="position-relative container-fluid min-vh-100 d-flex justify-content-center align-items-center text-white overflow-hidden" style="background-color: #000000">
+      <div id="particles-hero" class="position-absolute w-100 h-100 top-0 start-0" style="z-index: 0"></div>
+
+      <div class="container text-center position-relative" style="z-index: 1">
+        <h1 class="display-4 fw-bold">
+          <span class="text-white me-2">Hi, I'm</span>
+          <button class="button" data-text="ANSHIKA">
+            <span class="actual-text">&nbsp;ANSHIKA&nbsp;</span>
+            <span aria-hidden="true" class="hover-text">&nbsp;ANSHIKA&nbsp;</span>
+          </button>
+        </h1>
+        <p class="lead text-light mt-3">
+          Software developer & AI/ML Enthusiast
+        </p>
+        <a href="#projects" class="shadow__btn mt-4">View Projects</a>
+      </div>
+    </section>
+ <header class="fixed top-0 w-full z-50 backdrop-blur-md bg-black/70 border-b border-gray-800">
+  <div class="max-w-6xl mx-auto flex justify-end items-center px-6 py-4">
+    
+    <nav>
+      <ul class="flex items-center gap-6 text-sm font-medium text-gray-300">
+        <li>
+          <a href="#projects" class="transition hover:text-[#1DCD9F]">
+            Projects
+          </a>
+        </li>
+        <li>
+          <a href="#coding-profiles" class="transition hover:text-[#1DCD9F]">
+            Coding Profiles
+          </a>
+        </li>
+        <li>
+          <a href="#tech-stack" class="transition hover:text-[#1DCD9F]">
+            Tech Stack
+          </a>
+        </li>
+        <li>
+          <a href="#contact" 
+             class="px-4 py-2 rounded-lg border border-[#1DCD9F] text-[#1DCD9F] 
+                    transition hover:bg-[#1DCD9F] hover:text-black">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+
+
+
+    <section id="about" class="bg-black text-white py-20 px-6">
+      <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-center text-center md:text-left gap-10 px-4">
+        <div class="flex-shrink-0 w-64 h-64 rounded-xl overflow-hidden shadow-lg grayscale hover:grayscale-0 transition duration-500" id="about-img">
+          <img src="./assets/AnshikaProfile.jpg" alt="Anshika Pandey" class="w-full h-full object-cover" />
+        </div>
+
+        <div class="max-w-2xl" id="about-text">
+          <h2 class="text-3xl md:text-4xl font-semibold leading-snug mb-4">
+            I'm <span class="text-[#1DCD9F] font-bold">Anshika Pandey</span>, a
+            B.Tech student in AI & ML passionate about building intelligent applications.
+          </h2>
+
+          <p class="text-gray-300 text-lg leading-relaxed mb-6">
+  Currently pursuing my B.Tech in Artificial Intelligence & Machine Learning at Pranveer Singh Institute of Technology, Kanpur. I enjoy solving problems using 
+  <span class="text-[#1DCD9F] font-bold">Python</span> and 
+  <span class="text-[#1DCD9F] font-bold">Java</span>, and working on 
+  <span class="text-[#1DCD9F] font-bold">software development</span> and 
+  <span class="text-[#1DCD9F] font-bold">AI/ML-based projects</span> to build practical, data-driven solutions.
+</p>
+
+
+          <ul class="example-2">
+            <li class="icon-content">
+              <a href="https://www.linkedin.com/in/anshikapandeyy/" aria-label="LinkedIn" target="_blank">
+                <div class="filled"></div>
+                <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+              <div class="tooltip">LinkedIn</div>
+            </li>
+            <li class="icon-content">
+              <a href="mailto:pandey.anshika7007@gmail.com" aria-label="Email">
+                <div class="filled"></div>
+                <i class="fas fa-envelope fa-2x"></i>
+              </a>
+              <div class="tooltip">Gmail</div>
+            </li>
+            <li class="icon-content">
+              <a href="https://github.com/anshika-pandey2311222" aria-label="GitHub" target="_blank">
+                <div class="filled"></div>
+                <i class="fab fa-github fa-2x"></i>
+              </a>
+              <div class="tooltip">GitHub</div>
+            </li>
+          </ul>
+
+          <div class="flex align-items-center justify-content-center mt-8" style="gap: 50px">
+  <a href="./assets/Anshika_Pandey_resume_up.pdf" target="_blank" class="resume-btn">
+    <span class="resume-text">View Resume</span>
+  </a>
+</div>
+
+
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="journey" class="bg-black text-white py-20 px-6">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-4xl font-bold mb-16 text-center text-[#1DCD9F]">My Journey</h2>
+
+        <div class="bg-[#111] p-6 rounded-2xl border border-[#1DCD9F] shadow-lg mb-6">
+          <h3 class="text-xl font-semibold text-[#1DCD9F]">B.Tech – AI & ML</h3>
+          <span class="text-sm text-gray-400">Pranveer Singh Institute of Technology, Kanpur (2023 - 2027)</span>
+          <p class="mt-2 text-gray-300">Focused on Artificial Intelligence, Machine Learning, and Data Analysis with hands-on project experience.</p>
+        </div>
+
+        <div class="bg-[#111] p-6 rounded-2xl border border-[#1DCD9F] shadow-lg mb-6">
+          <h3 class="text-xl font-semibold text-[#1DCD9F]">Certificates & Achievements</h3>
+          <ul class="list-disc ml-6 text-gray-300">
+            <li>5★ in Problem Solving & Python on HackerRank</li>
+            <li>Solved 250+ problems on LeetCode</li>
+            <li>Certified in Generative AI (Microsoft & LinkedIn Learning)</li>
+            <li>Certified in Prompt Engineering (Simplilearn), SQL (Kaggle), HTML/CSS/Bootstrap (Infosys)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+<section id="coding-profiles" class="bg-black text-white py-20 px-6">
+  <div class="max-w-6xl mx-auto text-center mb-12">
+    <h2 class="text-4xl font-bold mb-4 text-[#1DCD9F]">Coding Profiles</h2>
+    <p class="text-gray-300 text-lg">Check out my competitive programming progress.</p>
+  </div>
+
+  <div class="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
+    <!-- LeetCode -->
+    <div class="profile-card bg-white text-black shadow-xl rounded-2xl overflow-hidden">
+      <img src="./assets/leetcodeprofile.jpg" alt="LeetCode Profile" class="w-full h-60 object-cover" />
+      <div class="p-6">
+        <h3 class="text-2xl font-semibold mb-2">LeetCode</h3>
+        <p class="text-gray-700 mb-4">
+          Focused on problem-solving and DSA improvement.
+        </p>
+        <a href="https://leetcode.com/u/anshika_pandey0710/" target="_blank" class="bg-[#1DCD9F] text-white px-4 py-2 rounded">View Profile</a>
+      </div>
+    </div>
+
+    <!-- HackerRank -->
+    <div class="profile-card bg-white text-black shadow-xl rounded-2xl overflow-hidden">
+      <img src="./assets/hackerrankprofile.jpg" alt="HackerRank Profile" class="w-full h-60 object-cover" />
+      <div class="p-6">
+        <h3 class="text-2xl font-semibold mb-2">HackerRank</h3>
+        <p class="text-gray-700 mb-4">
+          Practicing algorithmic skills and challenges.
+        </p>
+        <a href="https://www.hackerrank.com/profile/2k23_psitaiml234" target="_blank" class="bg-[#1DCD9F] text-white px-4 py-2 rounded">View Profile</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="tech-stack" class="bg-black text-white py-20 px-6">
+  <div class="max-w-6xl mx-auto">
+    
+    <h2 class="text-4xl font-bold text-center mb-14 text-[#1DCD9F]">
+      Technical Skills
+    </h2>
+
+    <!-- GRID -->
+    <div class="grid md:grid-cols-2 gap-10">
+
+      <!-- Programming -->
+      <div class="bg-[#0f0f0f] rounded-2xl p-8 shadow-lg hover:shadow-[#1DCD9F]/20 transition">
+        <h3 class="text-2xl font-semibold mb-6 text-[#1DCD9F]">
+          Programming & Software Development
+        </h3>
+        <div class="flex flex-wrap gap-8">
+          <div class="flex flex-col items-center">
+            <i class="devicon-python-plain colored text-5xl"></i>
+            <span class="text-gray-300 mt-2">Python</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <i class="devicon-java-plain colored text-5xl"></i>
+            <span class="text-gray-300 mt-2">Java</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <i class="devicon-javascript-plain colored text-5xl"></i>
+            <span class="text-gray-300 mt-2">JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- AI / ML -->
+      <div class="bg-[#0f0f0f] rounded-2xl p-8 shadow-lg hover:shadow-[#1DCD9F]/20 transition">
+        <h3 class="text-2xl font-semibold mb-6 text-[#1DCD9F]">
+          AI / ML & Data
+        </h3>
+        <div class="flex flex-wrap gap-8">
+          <div class="flex flex-col items-center">
+            <i class="devicon-python-plain colored text-5xl"></i>
+            <span class="text-gray-300 mt-2">NumPy</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <i class="devicon-python-plain colored text-5xl"></i>
+            <span class="text-gray-300 mt-2">Pandas</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <i class="devicon-python-plain colored text-5xl"></i>
+            <span class="text-gray-300 mt-2">Matplotlib</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <i class="devicon-python-plain colored text-5xl"></i>
+            <span class="text-gray-300 mt-2">Scikit-Learn</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Databases -->
+      <div class="bg-[#0f0f0f] rounded-2xl p-8 shadow-lg hover:shadow-[#1DCD9F]/20 transition">
+        <h3 class="text-2xl font-semibold mb-6 text-[#1DCD9F]">
+          Databases
+        </h3>
+        <div class="flex flex-wrap gap-8">
+          <div class="flex flex-col items-center">
+            <i class="devicon-mysql-plain colored text-5xl"></i>
+            <span class="text-gray-300 mt-2">MySQL</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <i class="devicon-mongodb-plain colored text-5xl"></i>
+            <span class="text-gray-300 mt-2">MongoDB</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tools -->
+      <div class="bg-[#0f0f0f] rounded-2xl p-8 shadow-lg hover:shadow-[#1DCD9F]/20 transition">
+        <h3 class="text-2xl font-semibold mb-6 text-[#1DCD9F]">
+          Tools & Platforms
+        </h3>
+        <div class="flex flex-wrap gap-8">
+          <div class="flex flex-col items-center">
+            <i class="devicon-git-plain colored text-5xl"></i>
+            <span class="text-gray-300 mt-2">Git & GitHub</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <i class="devicon-vscode-plain colored text-5xl"></i>
+            <span class="text-gray-300 mt-2">VS Code</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <i class="devicon-docker-plain colored text-5xl"></i>
+            <span class="text-gray-300 mt-2">Docker</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <i class="devicon-firebase-plain colored text-5xl"></i>
+            <span class="text-gray-300 mt-2">Firebase</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+    <section id="projects" class="relative bg-black text-white py-20 px-6 overflow-hidden">
+      <div class="relative z-10">
+        <div class="max-w-6xl mx-auto text-center mb-12">
+          <h2 class="text-4xl font-bold mb-4">Projects</h2>
+          <p class="text-gray-300 text-lg">Some of my recent work.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
+
+          <div class="project-card bg-white text-black shadow-xl rounded-2xl overflow-hidden">
+            <img src="./assets/goticket.jpg" alt="GoTicket Screenshot" class="w-full h-60 object-cover" />
+            <div class="p-6">
+              <h3 class="text-2xl font-semibold mb-2">GoTicket</h3>
+              <p class="text-gray-700 mb-4">
+                A full-stack bus ticket booking system with real-time seat availability, GPS tracking, and AI chatbot integration.
+              </p>
+              <div class="flex flex-wrap gap-3 mb-4">
+                <span class="badge">MERN</span>
+                <span class="badge">React.js</span>
+                <span class="badge">JWT</span>
+                <span class="badge">GPS API</span>
+              </div>
+              <a href="#" class="bg-[#1DCD9F] text-white px-4 py-2 rounded">GitHub</a>
+            </div>
+          </div>
+
+          <div class="project-card bg-white text-black shadow-xl rounded-2xl overflow-hidden">
+  <img src="./assets/algomate.jpg" alt="AlgoMate Screenshot" class="w-full h-60 object-cover" />
+  <div class="p-6">
+    <h3 class="text-2xl font-semibold mb-2">AlgoMate</h3>
+    <p class="text-gray-700 mb-4">
+      An interactive DSA learning platform with AI chatbot, in-browser compiler, and topic-wise notes.
+    </p>
+    <div class="flex flex-wrap gap-3 mb-4">
+      <span class="badge">React.js</span>
+      <span class="badge">Tailwind</span>
+      <span class="badge">API Integration</span>
+    </div>
+    <div class="flex gap-4">
+      <a href="https://github.com/anshika-pandey2311222/AlgoMate" target="_blank" class="bg-[#1DCD9F] text-white px-4 py-2 rounded">GitHub</a>
+      
+    </div>
+  </div>
+</div>
+
+    </section>
+
+    <section id="contact" class="bg-[#0f0f0f] text-white py-20 px-6">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="shadow__btn mt-4">Get In Touch</h2>
+        <p class="text-gray-400 mb-6">Let's connect for opportunities, collaborations, or discussions in AI & Data.</p>
+        <p><strong>Email:</strong> pandey.anshika7007@gmail.com</p>
+        <p><strong>Phone:</strong> +91 7007714403</p>
+      </div>
+    </section>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script src="script.js"></script>
+
+  </body>
+</html>
